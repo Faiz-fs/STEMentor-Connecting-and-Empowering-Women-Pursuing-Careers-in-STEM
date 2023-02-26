@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEMentor</title>
+    <link rel="stylesheet" href="/static/css/signin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,200" />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c5b6a2f026.css" crossorigin="anonymous">
+
+    
+</head>
+<body>
+    <div class="container">
+        <form class="form-box" action="/login" method="post">
+            <h1 id="title">Sign in</h1>
+            <div class="input-group">
+                <div class="input-field">
+                    <span class="material-symbols-outlined">mail</span>
+                    <input type="email" placeholder="Email" name="Email">
+                </div>
+                <div class="input-field">
+                    <span class="material-symbols-outlined">lock</span>
+                    <input type="password" placeholder="Password" name="Password">
+                </div>
+                <p>Lost password <a href="#">Click Here!</a></p>
+                <p>New User? <a href="/signup">Register Here!</a></p>
+                <div class="btn-field">
+                    <button type="submit" id="signinBtn">sign in</button>
+                </div>
+            </div>
+        </form>
+    </div>
+<script src="/static/js/app.js"></script>  
+</body>
+</html>
